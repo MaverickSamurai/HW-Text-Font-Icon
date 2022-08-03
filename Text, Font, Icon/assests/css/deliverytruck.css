@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: DeliveryTruck;
+    src: url(../fonts/MouseMemoirs-Regular.ttf);
+}
+
+.all{
+    background-color: aliceblue;
+    width: 500px;
+    height: 600px;
+    margin-left: 30%;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.all .sheet{
+    position: absolute;
+    left: 42%;
+    top: 15%;
+    width: 150px;
+    height: 150px;
+    background-color: chocolate;
+    z-index: 1;
+    border-radius: 50px 0;
+}
+
+.all .fa-truck-fast{
+    position: absolute;
+    left: 45%;
+    top: 21%;
+    font-size: 50px;
+    color: white;
+    z-index: 2;
+    
+}
+
+.all h2{
+   
+    padding-top: 45%;
+}
+
+.all p{
+    padding-top: 15%;
+    font-size: 30px;
+    font-family: DeliveryTruck;
+}

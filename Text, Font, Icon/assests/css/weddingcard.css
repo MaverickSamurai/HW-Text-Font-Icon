@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Wedding;
+    src: url(../fonts/Hello.ttf);
+}
+
+body{
+    background-color: black;
+}
+
+.card{
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    width: 500px;
+    height: 640px;
+    margin-left: 30%;
+    margin-top: 5%;
+    text-align: center;  
+}
+
+.card .wedding{
+    padding-top: 30px;
+    font-family: Wedding;
+    font-size: 80px;
+    transform: rotate(-20deg);
+}
+
+.card .name{
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.card .on{
+    font-size: small;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+}
+
+.card .time{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+   
+}
+
+.card .place{
+    font-size: small;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+}
+
+.card .reception{
+    font-size: small;
+    font-style: italic;
+    text-transform: unset;
+    
+}
